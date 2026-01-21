@@ -4,5 +4,7 @@ __pycache__/
 .DS_Store
 *.pdf
 *.tsv
+!data/ejemplos/*.pdf
+!data/ejemplos/*.tsv
 *.json
 credentials/
