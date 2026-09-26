@@ -4,6 +4,10 @@ Repositorio de la tesis **«Implementación de un sistema automatizado para la g
 
 El proyecto reúne seis notebooks de procesamiento del corpus, anotación morfosintáctica, construcción de pares de oraciones, experimentación con LLM, evaluación y selección de ejercicios. En `prototype/` se encuentra una aplicación local de Streamlit que permite practicar con un banco de ejercicios ya preparado.
 
+**[Abrir la demo del prototipo](https://tesis-quechua-collao-ejercicios-gramaticales.streamlit.app/)**
+
+Es un prototipo de investigación; los ejercicios siguen en revisión.
+
 ## Qué permite hacer el prototipo
 
 - Elegir entre cuatro niveles y recorrer los ejercicios con **Anterior** y **Siguiente**.
