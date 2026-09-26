@@ -5,7 +5,7 @@ import streamlit as st
 from difflib import SequenceMatcher
 
 st.set_page_config(page_title="Ejercicios (Quechua Collao)", layout="centered")
-BANK_PATH = Path("./bank.jsonl")
+BANK_PATH = Path(__file__).resolve().parent / "bank.jsonl"
 
 # rerun helper (evaluar versiones de Streamlit)
 def _rerun():

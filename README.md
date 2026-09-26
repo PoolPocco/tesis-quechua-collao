@@ -30,7 +30,11 @@ Set-Location prototype
 
 No hace falta activar el entorno virtual: los comandos llaman directamente a su ejecutable. Si `py` no está disponible, utiliza la ruta del ejecutable de Python 3.12 en el paso de creación del entorno.
 
-**Ejecuta la aplicación desde `prototype/`**, porque busca `bank.jsonl` en el directorio actual.
+La aplicación localiza `bank.jsonl` junto a `app.py`, independientemente del directorio desde el que se ejecute. También puedes iniciarla desde la raíz del repositorio:
+
+```powershell
+& .\.venv\Scripts\python.exe -m streamlit run prototype/app.py
+```
 
 Abre en tu navegador la **Local URL** que muestre Streamlit, normalmente `http://localhost:8501`. En el primer inicio puede aparecer una pregunta opcional de correo electrónico: puedes dejarla vacía y pulsar **Enter**. Para detener el servidor, pulsa **Ctrl+C** en la terminal.
 
