@@ -8,3 +8,10 @@ __pycache__/
 !data/ejemplos/*.tsv
 *.json
 credentials/
+
+# Entorno virtual y archivos locales de ejecucion
+.venv/
+.env
+.env.*
+.streamlit/
+*.log
